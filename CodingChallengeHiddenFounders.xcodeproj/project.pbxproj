@@ -14,6 +14,12 @@
 		04C675DE201135B9006463BD /* CodingChallengeHiddenFoundersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C675DD201135B9006463BD /* CodingChallengeHiddenFoundersUITests.m */; };
 		04C675F220113730006463BD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C675F020113730006463BD /* FirstViewController.m */; };
 		04C675F320113730006463BD /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C675F120113730006463BD /* FirstViewController.xib */; };
+		04C675FA20115A16006463BD /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C675F920115A16006463BD /* User.m */; };
+		04C675FD20115A2A006463BD /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C675FC20115A2A006463BD /* Repository.m */; };
+		04C6760020115AB6006463BD /* RepositoryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C675FF20115AB6006463BD /* RepositoryStore.m */; };
+		04C6760320115B2C006463BD /* BaseServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6760220115B2C006463BD /* BaseServices.m */; };
+		04C6760620115B55006463BD /* Constantes.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6760520115B55006463BD /* Constantes.m */; };
+		04C6760920115BAA006463BD /* RepositoriesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6760820115BAA006463BD /* RepositoriesService.m */; };
 		284E574AD4F06DB60B6D34E0 /* libPods-CodingChallengeHiddenFounders.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA8E6D4966F1780584072AD /* libPods-CodingChallengeHiddenFounders.a */; };
 		928369A68ACC13E38FC51416 /* libPods-CodingChallengeHiddenFoundersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBD6EABA3C101F7A3F7BE95 /* libPods-CodingChallengeHiddenFoundersTests.a */; };
 		DAE50DDBACF5A2F45B02B9C9 /* libPods-CodingChallengeHiddenFoundersUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CB94A67A7E61C43BEB5919 /* libPods-CodingChallengeHiddenFoundersUITests.a */; };
@@ -52,6 +58,18 @@
 		04C675EF20113730006463BD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		04C675F020113730006463BD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		04C675F120113730006463BD /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		04C675F820115A16006463BD /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		04C675F920115A16006463BD /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		04C675FB20115A2A006463BD /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		04C675FC20115A2A006463BD /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		04C675FE20115AB6006463BD /* RepositoryStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryStore.h; sourceTree = "<group>"; };
+		04C675FF20115AB6006463BD /* RepositoryStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryStore.m; sourceTree = "<group>"; };
+		04C6760120115B2C006463BD /* BaseServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseServices.h; sourceTree = "<group>"; };
+		04C6760220115B2C006463BD /* BaseServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseServices.m; sourceTree = "<group>"; };
+		04C6760420115B55006463BD /* Constantes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constantes.h; sourceTree = "<group>"; };
+		04C6760520115B55006463BD /* Constantes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constantes.m; sourceTree = "<group>"; };
+		04C6760720115BAA006463BD /* RepositoriesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoriesService.h; sourceTree = "<group>"; };
+		04C6760820115BAA006463BD /* RepositoriesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoriesService.m; sourceTree = "<group>"; };
 		28A01F128D7B874768481B8F /* Pods-CodingChallengeHiddenFoundersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingChallengeHiddenFoundersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodingChallengeHiddenFoundersTests/Pods-CodingChallengeHiddenFoundersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2CA8E6D4966F1780584072AD /* libPods-CodingChallengeHiddenFounders.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingChallengeHiddenFounders.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBD6EABA3C101F7A3F7BE95 /* libPods-CodingChallengeHiddenFoundersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingChallengeHiddenFoundersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +218,8 @@
 		04C675F520113764006463BD /* Stores */ = {
 			isa = PBXGroup;
 			children = (
+				04C675FE20115AB6006463BD /* RepositoryStore.h */,
+				04C675FF20115AB6006463BD /* RepositoryStore.m */,
 			);
 			name = Stores;
 			sourceTree = "<group>";
@@ -207,6 +227,12 @@
 		04C675F620113772006463BD /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				04C6760120115B2C006463BD /* BaseServices.h */,
+				04C6760220115B2C006463BD /* BaseServices.m */,
+				04C6760420115B55006463BD /* Constantes.h */,
+				04C6760520115B55006463BD /* Constantes.m */,
+				04C6760720115BAA006463BD /* RepositoriesService.h */,
+				04C6760820115BAA006463BD /* RepositoriesService.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -214,6 +240,10 @@
 		04C675F72011377F006463BD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04C675F820115A16006463BD /* User.h */,
+				04C675F920115A16006463BD /* User.m */,
+				04C675FB20115A2A006463BD /* Repository.h */,
+				04C675FC20115A2A006463BD /* Repository.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -504,8 +534,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C6760920115BAA006463BD /* RepositoriesService.m in Sources */,
+				04C675FA20115A16006463BD /* User.m in Sources */,
+				04C6760620115B55006463BD /* Constantes.m in Sources */,
+				04C675FD20115A2A006463BD /* Repository.m in Sources */,
 				04C675BD201135B5006463BD /* AppDelegate.m in Sources */,
+				04C6760020115AB6006463BD /* RepositoryStore.m in Sources */,
 				04C675F220113730006463BD /* FirstViewController.m in Sources */,
+				04C6760320115B2C006463BD /* BaseServices.m in Sources */,
 				04C675BA201135B5006463BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -719,6 +755,7 @@
 				04C675E4201135B9006463BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C675E5201135B9006463BD /* Build configuration list for PBXNativeTarget "CodingChallengeHiddenFoundersTests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +764,7 @@
 				04C675E7201135B9006463BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C675E8201135B9006463BD /* Build configuration list for PBXNativeTarget "CodingChallengeHiddenFoundersUITests" */ = {
 			isa = XCConfigurationList;
@@ -735,6 +773,7 @@
 				04C675EA201135B9006463BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
