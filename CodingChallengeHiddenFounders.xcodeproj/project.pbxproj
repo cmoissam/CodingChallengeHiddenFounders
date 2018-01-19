@@ -20,6 +20,14 @@
 		04C6760320115B2C006463BD /* BaseServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6760220115B2C006463BD /* BaseServices.m */; };
 		04C6760620115B55006463BD /* Constantes.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6760520115B55006463BD /* Constantes.m */; };
 		04C6760920115BAA006463BD /* RepositoriesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6760820115BAA006463BD /* RepositoriesService.m */; };
+		04C6760F20116077006463BD /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6760C20116077006463BD /* UIScrollView+SVInfiniteScrolling.m */; };
+		04C6761020116077006463BD /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6760E20116077006463BD /* UIScrollView+SVPullToRefresh.m */; };
+		04C676142011636E006463BD /* default_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C676112011636E006463BD /* default_user.png */; };
+		04C676152011636E006463BD /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C676122011636E006463BD /* settings.png */; };
+		04C676162011636E006463BD /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C676132011636E006463BD /* star.png */; };
+		04C6761A20116609006463BD /* RepositoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6761820116609006463BD /* RepositoryCell.m */; };
+		04C6761B20116609006463BD /* RepositoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C6761920116609006463BD /* RepositoryCell.xib */; };
+		04C6761D201167F4006463BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C6761C201167F4006463BD /* Default-568h@2x.png */; };
 		284E574AD4F06DB60B6D34E0 /* libPods-CodingChallengeHiddenFounders.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA8E6D4966F1780584072AD /* libPods-CodingChallengeHiddenFounders.a */; };
 		928369A68ACC13E38FC51416 /* libPods-CodingChallengeHiddenFoundersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBD6EABA3C101F7A3F7BE95 /* libPods-CodingChallengeHiddenFoundersTests.a */; };
 		DAE50DDBACF5A2F45B02B9C9 /* libPods-CodingChallengeHiddenFoundersUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CB94A67A7E61C43BEB5919 /* libPods-CodingChallengeHiddenFoundersUITests.a */; };
@@ -70,6 +78,18 @@
 		04C6760520115B55006463BD /* Constantes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constantes.m; sourceTree = "<group>"; };
 		04C6760720115BAA006463BD /* RepositoriesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoriesService.h; sourceTree = "<group>"; };
 		04C6760820115BAA006463BD /* RepositoriesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoriesService.m; sourceTree = "<group>"; };
+		04C6760A20116077006463BD /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		04C6760B20116077006463BD /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		04C6760C20116077006463BD /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		04C6760D20116077006463BD /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		04C6760E20116077006463BD /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		04C676112011636E006463BD /* default_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_user.png; sourceTree = "<group>"; };
+		04C676122011636E006463BD /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		04C676132011636E006463BD /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		04C6761720116609006463BD /* RepositoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryCell.h; sourceTree = "<group>"; };
+		04C6761820116609006463BD /* RepositoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryCell.m; sourceTree = "<group>"; };
+		04C6761920116609006463BD /* RepositoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositoryCell.xib; sourceTree = "<group>"; };
+		04C6761C201167F4006463BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		28A01F128D7B874768481B8F /* Pods-CodingChallengeHiddenFoundersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingChallengeHiddenFoundersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodingChallengeHiddenFoundersTests/Pods-CodingChallengeHiddenFoundersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2CA8E6D4966F1780584072AD /* libPods-CodingChallengeHiddenFounders.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingChallengeHiddenFounders.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBD6EABA3C101F7A3F7BE95 /* libPods-CodingChallengeHiddenFoundersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingChallengeHiddenFoundersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +132,7 @@
 		04C675AC201135B5006463BD = {
 			isa = PBXGroup;
 			children = (
+				04C6761C201167F4006463BD /* Default-568h@2x.png */,
 				04C675B7201135B5006463BD /* CodingChallengeHiddenFounders */,
 				04C675D1201135B6006463BD /* CodingChallengeHiddenFoundersTests */,
 				04C675DC201135B9006463BD /* CodingChallengeHiddenFoundersUITests */,
@@ -187,6 +208,11 @@
 		04C675EC201136D0006463BD /* librairies */ = {
 			isa = PBXGroup;
 			children = (
+				04C6760A20116077006463BD /* SVPullToRefresh.h */,
+				04C6760B20116077006463BD /* UIScrollView+SVInfiniteScrolling.h */,
+				04C6760C20116077006463BD /* UIScrollView+SVInfiniteScrolling.m */,
+				04C6760D20116077006463BD /* UIScrollView+SVPullToRefresh.h */,
+				04C6760E20116077006463BD /* UIScrollView+SVPullToRefresh.m */,
 			);
 			name = librairies;
 			sourceTree = "<group>";
@@ -194,6 +220,9 @@
 		04C675ED201136E3006463BD /* views */ = {
 			isa = PBXGroup;
 			children = (
+				04C6761720116609006463BD /* RepositoryCell.h */,
+				04C6761820116609006463BD /* RepositoryCell.m */,
+				04C6761920116609006463BD /* RepositoryCell.xib */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -201,6 +230,9 @@
 		04C675EE201136F3006463BD /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				04C676112011636E006463BD /* default_user.png */,
+				04C676122011636E006463BD /* settings.png */,
+				04C676132011636E006463BD /* star.png */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -385,8 +417,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C676152011636E006463BD /* settings.png in Resources */,
+				04C676162011636E006463BD /* star.png in Resources */,
 				04C675C5201135B5006463BD /* Assets.xcassets in Resources */,
+				04C6761B20116609006463BD /* RepositoryCell.xib in Resources */,
 				04C675F320113730006463BD /* FirstViewController.xib in Resources */,
+				04C6761D201167F4006463BD /* Default-568h@2x.png in Resources */,
+				04C676142011636E006463BD /* default_user.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,14 +572,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C6760920115BAA006463BD /* RepositoriesService.m in Sources */,
+				04C6761020116077006463BD /* UIScrollView+SVPullToRefresh.m in Sources */,
 				04C675FA20115A16006463BD /* User.m in Sources */,
 				04C6760620115B55006463BD /* Constantes.m in Sources */,
 				04C675FD20115A2A006463BD /* Repository.m in Sources */,
+				04C6760F20116077006463BD /* UIScrollView+SVInfiniteScrolling.m in Sources */,
 				04C675BD201135B5006463BD /* AppDelegate.m in Sources */,
 				04C6760020115AB6006463BD /* RepositoryStore.m in Sources */,
 				04C675F220113730006463BD /* FirstViewController.m in Sources */,
 				04C6760320115B2C006463BD /* BaseServices.m in Sources */,
 				04C675BA201135B5006463BD /* main.m in Sources */,
+				04C6761A20116609006463BD /* RepositoryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
