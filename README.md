@@ -14,5 +14,5 @@ You can run the application with XCode:
 - Open CodingChallengeHiddenFounders.xcodeproj.
 - Select the "CodingChallengeGithub" scheme and the appropriate destination (simulator or attached iOS device).
 - Click the Run button.
-## Questions?
+## Questions ?
 If you have any questions, contact me via issam.lanouari@gmail.com
